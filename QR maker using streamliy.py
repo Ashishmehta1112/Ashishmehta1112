@@ -12,58 +12,11 @@ a=st.title('Welcome to QR MAKER')
 
  
 
-def main():
-
-    # Add CSS styles
-
-    st.markdown(
-
-        """
-
-        <style>
-
-        body {
 
         
 
-        
 
-        background-image: url('https://www.freepik.com/free-photo/fading-blue-background_4100989.htm#query=matte%20background&position=12&from_view=keyword&track=ais');
-
-            background-size: cover;
-
-            background-repeat:repeat; 
-
-            color: #5775;
-
-            font-family: Arial, sans-serif;
-
-        }
-
-        
-
-        
-
-        </style>
-
-        """,
-
-        unsafe_allow_html=True
-
-    )
-
-    
-
-    
-
-    
-
-    
-
-if __name__ == "__main__":
-
-    main()
-
+            
 websitename= st.text_input("Type the website name for which you want to make qr code")
 
  
